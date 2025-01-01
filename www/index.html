@@ -23,59 +23,84 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <section id="Oval" class="mb-4">
-      <div class="row">
-        <div class="col-md-1"></div>
-        <div class="col-md-10">
-          <div
-            class="d-flex justify-content-center align-items-center"
-            style="height: 80vh"
-          >
-            <canvas
-              id="canvasOne"
-              width="700"
-              height="420"
-              style="position: absolute"
+    <div class="container">
+      <section id="Oval" class="mb-4" hidden>
+        <div class="row">
+          <div class="col-md-1"></div>
+          <div class="col-md-10">
+            <div
+              class="d-flex justify-content-center align-items-center"
+              style="height: 80vh"
             >
-            </canvas>
+              <canvas
+                id="canvasOne"
+                width="700"
+                height="420"
+                style="position: absolute"
+              >
+              </canvas>
 
-            <div id="JarvisHood">
-              <div class="square">
-                <span class="circle"></span>
-                <span class="circle"></span>
-                <span class="circle"></span>
+              <div id="JarvisHood">
+                <div class="square">
+                  <span class="circle"></span>
+                  <span class="circle"></span>
+                  <span class="circle"></span>
+                </div>
+              </div>
+            </div>
+
+            <h5 class="text-light text text-center">Ask me Anything</h5>
+
+            <div class="col-md-12 mt-4 pt-4">
+              <div class="text-center">
+                <div id="TextInput" class="d-flex">
+                  <input
+                    type="text"
+                    class="input-field"
+                    name="chatbox"
+                    id="chatbox"
+                    placeholder="type here ..."
+                  />
+                  <button id="MicBtn" class="glow-on-hover">
+                    <i class="bi bi-mic"></i>
+                  </button>
+                  <button id="ChatBtn" class="glow-on-hover">
+                    <i class="bi bi-chat-dots"></i>
+                  </button>
+                  <button id="SettingBtn" class="glow-on-hover">
+                    <i class="bi bi-gear"></i>
+                  </button>
+                </div>
               </div>
             </div>
           </div>
+          <div class="col-md-1"></div>
+        </div>
+      </section>
 
-          <h5 class="text-light text text-center">Ask me Anything</h5>
-
-          <div class="col-md-12 mt-4 pt-4">
-            <div class="text-center">
-              <div id="TextInput" class="d-flex">
-                <input
-                  type="text"
-                  class="input-field"
-                  name="chatbox"
-                  id="chatbox"
-                  placeholder="type here ..."
-                />
-                <button id="MicBtn" class="glow-on-hover">
-                  <i class="bi bi-mic"></i>
-                </button>
-                <button id="ChatBtn" class="glow-on-hover">
-                  <i class="bi bi-chat-dots"></i>
-                </button>
-                <button id="SettingBtn" class="glow-on-hover">
-                  <i class="bi bi-gear"></i>
-                </button>
+      <section id="SiriWave" class="mb-4">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div
+                class="d-flex justify-content-center align-items-center"
+                style="height: 100vh"
+              >
+                <div class="">
+                  <p
+                    class="text-start text-light mb-4 siri-message"
+                    style="font-size: 28px"
+                  >
+                    Hello, I am Alexa!
+                  </p>
+                  <div id="siri-container"></div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-md-1"></div>
-      </div>
-    </section>
+      </section>
+    </div>
 
     <!--Jquery  -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
@@ -99,6 +124,9 @@
 
     <!-- Particle js -->
     <script src="./script.js"></script>
+
+    <!-- Siri wave -->
+    <script src="https://unpkg.com/siriwave/dist/siriwave.umd.min.js"></script>
 
     <script src="assets/vendore/texllate//jquery.fittext.js"></script>
     <script src="assets/vendore/texllate//jquery.lettering.js"></script>
