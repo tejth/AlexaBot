@@ -34,4 +34,10 @@ $(document).ready(function () {
       sync: true,
     },
   });
+
+  $("#MicBtn").click(function () {
+    eel.playAssistantSound();
+    $("#Oval").attr("hidden", true);
+    $("#SiriWave").attr("hidden", false);
+  });
 });
