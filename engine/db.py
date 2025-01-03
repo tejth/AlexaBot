@@ -31,3 +31,7 @@ cursor = conn.cursor()
 # Commit changes and close connection
 # conn.commit()
 # conn.close()
+
+query = "INSERT INTO contacts VALUES (null,'mata ji', '6395916602',null)"
+cursor.execute(query)
+conn.commit()

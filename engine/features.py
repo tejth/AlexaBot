@@ -133,16 +133,16 @@ def findContact(query):
 def whatsApp(mobile_no, message, flag, name):
 
     if flag == 'message':
-        target_tab = 12
+        target_tab = 14
         jarvis_message = "message send successfully to "+name
 
     elif flag == 'call':
-        target_tab = 7
+        target_tab = 8
         message = ''
         jarvis_message = "calling to "+name
 
     else:
-        target_tab = 6
+        target_tab = 7
         message = ''
         jarvis_message = "staring video call with "+name
 
