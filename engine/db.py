@@ -32,6 +32,6 @@ cursor = conn.cursor()
 # conn.commit()
 # conn.close()
 
-query = "INSERT INTO contacts VALUES (null,'mata ji', '6395916602',null)"
-cursor.execute(query)
-conn.commit()
+# query = "INSERT INTO contacts VALUES (null,'mata ji', '639sda523916602',null)"
+# cursor.execute(query)
+# conn.commit()
