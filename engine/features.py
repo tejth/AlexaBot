@@ -108,7 +108,6 @@ def hotword():
         if paud is not None:
             paud.terminate()
 
-
 #find contacts
 def findContact(query):
     words_to_remove = [ASSISTANT_NAME, 'make', 'a', 'to', 'phone', 'call', 'send', 'message', 'wahtsapp', 'video']
