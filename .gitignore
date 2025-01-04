@@ -4,3 +4,5 @@ jarvis.db
 /engine/__pycache__
 /engine/cookies.json
 /test.py
+/engine/auth/samples
+/engine/auth/trainer
