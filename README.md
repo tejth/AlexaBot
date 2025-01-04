@@ -24,3 +24,26 @@
   </ol>
 </details>
 
+<!-- ABOUT THE PROJECT -->
+## About The Project     
+
+![1](https://github.com/user-attachments/assets/cfc109c0-5a2a-4cfa-b0c9-43540e2f5d35)
+
+<strong>AlexaBot Similar to ChatGpt which Receives query from user and sends back the response. <br>Following are the functionalities:-</strong>
+
+<ul>                                                                                                                                                               
+  <li>Speech Recognition Function which enables users to give input through voice using mic.</li>
+  <li>Enables user to Open different Apps by Speaking -> eg.. Open "appname"</li>   
+  <li>Contains functionality to open content such as video and music on Youtube -> eg.. "Play Marron 5 on Youtube"</li>
+  <li>Implemented Database to store path and url of apps and websites which can't be opened directly using command line.(By storing the paths and urls we can easily open them using open command)</li>
+  <li>Added Functionality to open or activate Alexa for speech recognition by either pressing "window + j" key or by saying the hotword "Alexa" </li>
+  <li>Implemented Whats App automation , so that the alexa can send mssg and do voice call or video call by storing contacts in the database -> eg.."alexa make a phone call to amit"</li>
+  <li>Implemented chat Feature using "hug chat" along with storing history of whatever query that has been asked by the user -> eg.." tell me about elon musk in 30 words"</li>
+  <li>Used Adb to connect to the users mobile and perform calling and sms sending tasks. </li>
+  <li>Implemented Face Authentication Functionality using opencv python module.</li>
+</ul>                                                   
+  
+  
+                      
+  
+  
