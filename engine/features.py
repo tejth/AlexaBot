@@ -3,6 +3,7 @@ from shlex import quote
 import struct
 import subprocess
 import time
+from hugchat import hugchat
 from playsound import playsound
 import eel
 import pvporcupine
@@ -110,8 +111,6 @@ def hotword():
 
 #find contacts
 def findContact(query):
-
-
     words_to_remove = [ASSISTANT_NAME, 'make', 'a', 'to', 'phone', 'call', 'send', 'message', 'wahtsapp', 'video']
     query = remove_words(query, words_to_remove)
 
@@ -167,3 +166,14 @@ def whatsApp(mobile_no, message, flag, name):
 
     pyautogui.hotkey('enter')
     speak(jarvis_message)
+
+# chat bot 
+def chatBot(query):
+    user_input = query.lower()
+    chatbot = hugchat.ChatBot(cookie_path="engine\cookies.json")
+    id = chatbot.new_conversation()
+    chatbot.change_conversation(id)
+    response = chatbot.chat(user_input)
+    print(response)
+    speak(response)
+    return response
