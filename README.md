@@ -15,7 +15,10 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project     
 
-![1](https://github.com/user-attachments/assets/cfc109c0-5a2a-4cfa-b0c9-43540e2f5d35)
+[Click here to watch the video](https://github.com/user-attachments/assets/30d42571-91d8-4454-8782-15bd3804411e)
+
+<br>
+<br>
 
 <strong>AlexaBot Similar to ChatGpt which Receives query from user and sends back the response. <br>Following are the functionalities:-</strong>
 
