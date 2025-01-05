@@ -53,7 +53,59 @@
    alt="VsCode" title="VsCode"/></code></td>
 		</tr>                    
 	</table>
-</div>                 
+</div>                                                                                                                                                                                                         
+
+## Libraries And Modules Used
+<ul>
+ <li>pyttx library (Convert text to voice)</li>                                                                                  
+ <li>Speech Recognition (Library for performing speech recognition, with support for several engines and APIs, online and offline.)</li>
+ <li>PyAudio (Cross-platform audio I/O with PortAudio)</li>
+ <li>eel (To connect Backend and Frontend)</li>
+ <li>PyWhatKit (WhatKit is a Simple and Powerful WhatsApp Automation Library with many useful Features)</li>
+ <li>webbrowser ( allows displaying Web-based documents to users. )</li>
+ <li>pvpporcupine version 1.9.6 (Porcupine wake word engine.)</li>
+ <li>adb (A pure python implementation of the Android ADB and Fastboot protocols)</li>
+</ul>                    
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+  
+  
+  
+  
+  
+  
+  
+  
+  
+                                          
+                   
 
 ## Contact
 
