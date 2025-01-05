@@ -65,6 +65,7 @@
  <li>webbrowser ( allows displaying Web-based documents to users. )</li>
  <li>pvpporcupine version 1.9.6 (Porcupine wake word engine.)</li>
  <li>adb (A pure python implementation of the Android ADB and Fastboot protocols)</li>
+ <li>Opencv (Face Authentication)</li>
 </ul>                    
                       
                       
